@@ -52,7 +52,7 @@ export namespace libio {
          * @param str string to output
          * @param separator text separator
          */
-        template<typename T = std::string>
+        template<typename T>
         void print(const T &str, std::string separator = "") {
             if (std::cout.good()) {
                 std::cout << str << separator;

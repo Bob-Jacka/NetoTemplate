@@ -5,12 +5,12 @@ set(CMAKE_CXX_STANDARD 20)
 
 add_executable(NetoTemplate
 
-        firstTask/main.cpp
+        #firstTask/main.cpp
 
-        #        secondTask/main.cpp
-        #        secondTask/Table.hpp
+        #secondTask/main.cpp
+        #secondTask/Table.hpp
 
-        #        thirdTask/main.cpp
+        thirdTask/main.cpp
 
         libio.cppm
 )
